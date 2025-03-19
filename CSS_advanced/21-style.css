@@ -450,10 +450,6 @@ body {
     text-align: var(--section-footer-align);
   }
 
-  .footer {
-    padding: var(--footer-padding);
-}
-
   .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -479,6 +475,10 @@ body {
     font-weight: var(--font-weight-bold);
   }
   
+  .footer {
+    padding: var(--footer-padding);
+  }
+
   .navbar-menu {
     float: right;
   }
@@ -486,7 +486,7 @@ body {
   .nav {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
     text-align: center;
   }
 
