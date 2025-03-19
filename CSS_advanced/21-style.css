@@ -1,4 +1,4 @@
-/* Add a universal rule for box-sizing */
+/* Ajoute une règle universelle pour la taille de boîte */
 *,
 *::before,
 *::after {
@@ -17,8 +17,7 @@ html {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -110,6 +109,7 @@ a[href]:active {
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
+
 .section-tagline {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
@@ -161,14 +161,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--nav-item-link-hover);
 }
 
-/* Reset margins and paddings for lists */
+/* Réinitialisation des marges et des paddings pour les listes */
 ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-/* Styles for columns */
+/* Styles pour les colonnes */
 [class^="col-"] {
     float: left;
     padding: 0.5rem;
@@ -182,7 +182,7 @@ ul.row {
     width: 50%;
 }
 
-/* Styles for the footer */
+/* Styles pour le pied de page */
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -193,7 +193,7 @@ ul.row {
     text-align: right;
 }
 
-/* Clearfix for rows */
+/* Clearfix pour les rangées */
 .row::after {
     content: "";
     display: table;
