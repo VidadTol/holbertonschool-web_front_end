@@ -399,7 +399,7 @@ html {
     --section-tagline-margin: 0;
   }
   
-body {
+body, a {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -408,7 +408,6 @@ body {
   }
   
   a[href] {
-    color: var(--text-color);
     text-decoration: none;
   }
 
@@ -450,10 +449,6 @@ body {
     text-align: var(--section-footer-align);
   }
 
-  .footer {
-    padding: var(--footer-padding);
-}
-
   .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -478,7 +473,11 @@ body {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
-  
+
+  .footer {
+    padding: var(--footer-padding);
+  }
+
   .navbar-menu {
     float: right;
   }
