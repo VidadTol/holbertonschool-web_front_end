@@ -53,11 +53,10 @@ body {
   }
 
   .section-tagline {
+    color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-family-bold);
-    color: var(--color-primary);
-    
   }
 
   h1, h2, h3, h4, h5, h6 {
