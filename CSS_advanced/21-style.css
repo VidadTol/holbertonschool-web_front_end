@@ -478,11 +478,7 @@ body {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
   }
-
-  .footer {
-    padding: var(--footer-padding);
-  }
-
+  
   .navbar-menu {
     float: right;
   }
