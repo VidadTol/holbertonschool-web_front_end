@@ -492,13 +492,8 @@ body {
   nav {
     margin: 0;
     padding: 0;
+    list-style: none;
     text-align: center;
-  }
-
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
   }
 
   nav .nav-item {
@@ -512,10 +507,7 @@ body {
   
   nav .nav-link {
     display: block;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.5rem 1rem;
   }
 
   nav .nav-link:hover {
